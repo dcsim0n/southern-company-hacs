@@ -25,8 +25,8 @@
 
 1. Using the tool of choice open the directory (folder) for your HA configuration (where you find `configuration.yaml`).
 2. If you do not have a `custom_components` directory (folder) there, you need to create it.
-3. In the `custom_components` directory (folder) create a new folder called `southern_company_hacs`.
-4. Download _all_ the files from the `custom_components/southern_company_hacs/` directory (folder) in this repository.
+3. In the `custom_components` directory (folder) create a new folder called `southern_company`.
+4. Download _all_ the files from the `custom_components/southern_company/` directory (folder) in this repository.
 5. Place the files you downloaded in the new directory (folder) you created.
 6. Restart Home Assistant
 7. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Southern Company HACS"
@@ -34,21 +34,18 @@
 Using your HA configuration directory (folder) as a starting point you should now also have this:
 
 ```text
-custom_components/southern_company_hacs/translations/en.json
-custom_components/southern_company_hacs/translations/fr.json
-custom_components/southern_company_hacs/translations/nb.json
-custom_components/southern_company_hacs/translations/sensor.en.json
-custom_components/southern_company_hacs/translations/sensor.fr.json
-custom_components/southern_company_hacs/translations/sensor.nb.json
-custom_components/southern_company_hacs/translations/sensor.nb.json
-custom_components/southern_company_hacs/__init__.py
-custom_components/southern_company_hacs/api.py
-custom_components/southern_company_hacs/binary_sensor.py
-custom_components/southern_company_hacs/config_flow.py
-custom_components/southern_company_hacs/const.py
+custom_components/southern_company/translations/en.json
+custom_components/southern_company/translations/fr.json
+custom_components/southern_company/translations/nb.json
+custom_components/southern_company/translations/sensor.en.json
+custom_components/southern_company/translations/sensor.fr.json
+custom_components/southern_company/translations/sensor.nb.json
+custom_components/southern_company/translations/sensor.nb.json
+custom_components/southern_company/__init__.py
+custom_components/southern_companys/config_flow.py
+custom_components/southern_companys/const.py
 custom_components/southern_company_hacs/manifest.json
 custom_components/southern_company_hacs/sensor.py
-custom_components/southern_company_hacs/switch.py
 ```
 
 ## Configuration is done in the UI
